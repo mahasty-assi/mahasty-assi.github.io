@@ -10,7 +10,7 @@
 </script>
 
 <div class="comic-card" style="background-color: {bgColor}">
-	<div on:click={() => toggleOpen('personal')} class="div-button">
+	<div on:click={toggleOpen} class="div-button">
 		<h2>{title}</h2>
 		<p>{description}</p>
 		<p>{bonus}</p>
@@ -43,24 +43,18 @@
 		flex-direction: column;
 	}
 	h2 {
-		font-family: 'Apple SD Gothic Neo';
+		font-family: sans-serif;
+		font-weight: lighter;
 	}
 	img {
 		width: 60%;
 		align-self: center;
+		margin: 1em 0;
 	}
 	button {
 		border: none;
 		background: none;
 		width: 100%;
 		padding: 2em 0;
-	}
-	hr {
-		display: block;
-		margin: 1em auto;
-		width: 100%;
-		border-style: inset;
-		border-width: 2px;
-		border-color: firebrick;
 	}
 </style>

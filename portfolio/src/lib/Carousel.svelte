@@ -29,7 +29,7 @@
 		the slide dot buttons at the end to jump to slides.
 	</p>
 
-	<button class="previous" >
+	<button class="previous">
 		<Icon icon={faChevronLeft} aria-hidden="true" />
 		<span class="sr-only">Previous slides</span>
 	</button>

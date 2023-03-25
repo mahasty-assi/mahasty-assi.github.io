@@ -1,6 +1,6 @@
 <script>
 	import Page from '$lib/Page.svelte';
-	import ComicCard from '$lib/ComicCard.svelte';
+	import ComicCard from '$lib/ComicExpandable.svelte';
 
 	// comic page structured like...
 	// each comic needs to have its own lane
@@ -38,7 +38,7 @@
 
 <style>
 	.comic-container {
-		padding: 0 10em;
+		margin: 0 1em;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;

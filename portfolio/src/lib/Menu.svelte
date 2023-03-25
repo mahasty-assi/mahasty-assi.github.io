@@ -1,5 +1,5 @@
 <script>
-	let menuItems = ['About', 'Comics', 'Illustrations'];
+	let menuItems = ['About', 'Comics', 'Illustrations', 'Other'];
 </script>
 
 <ul>
@@ -26,12 +26,12 @@
 	li:hover {
 		background-color: chocolate;
 	}
-
 	li > a {
 		display: block;
 		color: white;
 		text-align: center;
 		text-decoration: none;
 		padding: 1em;
+		font-family: sans-serif;
 	}
 </style>
