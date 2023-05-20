@@ -54,7 +54,7 @@
 				to right,
 				rgba(255, 243, 230, 100),
 				rgba(255, 255, 255, 0.1)
-		), url("$lib/illustrations/banner.png");
+		), url("$lib/illustrations/Banner.png");
 	}
 	.inside-card {
 		margin: 1%;
