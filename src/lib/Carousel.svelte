@@ -20,7 +20,9 @@
 		{ alt: 'Sword', path: t3, id: 9 }
 	];
 
-	function goToImg(index) {}
+	function goToImg(index) {
+		console.log(index)
+	}
 </script>
 
 <section class="carousel" aria-label="carousel">
